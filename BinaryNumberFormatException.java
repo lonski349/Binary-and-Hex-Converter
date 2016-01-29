@@ -3,8 +3,8 @@ public class BinaryNumberFormatException extends Exception {
 	
 	private int value;
 	
-	public BinaryNumberFormatException(int binaryVal){
-		super("Invalid Number" + binaryVal);
+	public BinaryNumberFormatException(char binaryVal){
+		super("Invalid Number: " + binaryVal);
 		value = binaryVal;
 	}
 	
